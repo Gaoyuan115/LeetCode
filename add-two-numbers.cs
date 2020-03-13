@@ -29,6 +29,7 @@
  */
  /*
  * 时间复杂度：O（n）
+ * 需要额外注意的情况，最后一位可能存在进位的情况
  */
 public class Solution {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2) {
