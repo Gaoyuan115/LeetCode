@@ -8,4 +8,5 @@
 | ---- | ---- | ---- | :--- |
 | 1    |   [两数之和](https://leetcode-cn.com/problems/two-sum/)   |  [c#](./two-sum.cs)    |  Easy    |
 | 2     |  [两数相加](https://leetcode-cn.com/problems/add-two-numbers/)    |  [c#](./add-two-numbers.cs)     |  Medium    |
+｜ 3   ｜ [无重复的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/)  | [c#](./longest-substring-without-repeating-characters.cs) | Medium |
 
