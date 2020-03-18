@@ -24,3 +24,24 @@
 输出: 0
 解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。
 */
+
+/*
+一开始奔着枚举所有收益组合的思路去想，结果反而是最复杂的，因为限定条件允许多次买卖，理论上每天都可以作为线段的气起点，最大收益就是把曲线图上所有上行曲线加起来就可以了，一遍循环搞定
+时间复杂度 O（1）
+空间复杂度 O（1）
+*/
+public class Solution {
+    public int MaxProfit(int[] prices) {
+        int sum = 0;
+        for (int i = 1; i < prices.Count(); i++)
+        {
+            int profit = prices[i] - prices[i-1];
+            if (profit > 0)
+            {
+               sum += profit;  
+            }
+        }
+
+        return sum;
+    }
+}
