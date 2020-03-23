@@ -13,3 +13,4 @@
 | 122   | [买卖股票最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C#](./122-best-time-to-buy-and-sell-stock-ii.cs) | Easy |
 ｜189 ｜ [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [c#](./189-rotate-array.md) | Easy |
 | 136 ｜ [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [c#](./136-single-number.md) | Easy |
+| 350 ｜ [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [c#](./350-intersection-of-two-arrays-ii.md) | Easy |
