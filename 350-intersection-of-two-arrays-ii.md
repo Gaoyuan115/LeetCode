@@ -58,4 +58,38 @@ public class Solution {
 ```
 
 ## 题解二
-双指针排序
+
+双指针排序,先将两个数组排序，再使用两个指针分别指向数组元素。
+如有相同元素，则添加至结果列表，并移动指针。
+如果结果不同，因为数组已经排序，则移动数字较小的指针，因为再遇到下一个相等数字前两个数组不会再有重复
+
+``` c#
+public class Solution {
+    public int[] Intersect(int[] nums1, int[] nums2) {
+        List<int> list1 = new List<int>(nums1);
+        list1.Sort();
+
+        List<int> list2 = new List<int>(nums2);
+        list2.Sort();
+        
+        int i=0; 
+        int j=0;
+
+        List<int> rtn = new List<int>();
+        while(i<list1.Count() && j<list2.Count()){
+            int num1 = list1[i];
+            int num2 = list2[j];
+            if(num1 > num2){
+                j++;
+            } else if (num2 > num1) {
+                i++;
+            } else {
+                rtn.Add(num1);
+                j++;
+                i++;
+            }
+        }
+        return rtn.ToArray();
+    }
+}
+```
