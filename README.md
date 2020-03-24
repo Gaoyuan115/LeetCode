@@ -14,3 +14,4 @@
 ｜189 ｜ [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [c#](./189-rotate-array.md) | Easy |
 | 136 ｜ [只出现一次的数字](https://leetcode-cn.com/problems/single-number/) | [c#](./136-single-number.md) | Easy |
 | 350 ｜ [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [c#](./350-intersection-of-two-arrays-ii.md) | Easy |
+| 66 ｜ [加一](https://leetcode-cn.com/problems/plus-one/) | [c#](./66-plus-one.md) | Easy |
